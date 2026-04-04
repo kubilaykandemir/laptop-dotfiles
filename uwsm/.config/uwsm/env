@@ -1,0 +1,23 @@
+# Environment variables set everywhere
+export EDITOR="nvim"
+export VISUAL="nvim"
+export SUDO_EDITOR="nvim"
+export MANPAGER='nvim'
+export BROWSER="firefox"
+export VIDEO="mpv"
+export OPENER="xdg-open"
+export PAGER="less"
+export READER="zathura"
+
+# XDG Paths
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_STATE_HOME=$HOME/.local/state
+
+# Clutter package already has wayland enabled, this variable will force Clutter applications to try and use the Wayland backend
+export CLUTTER_BACKEND="wayland"
+
+# zsh config dir
+export ZDOTDIR=$HOME/.config/zsh
+
